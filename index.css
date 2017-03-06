@@ -1,0 +1,78 @@
+/*整个页面初始化*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*十字架的组成和调试*/
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.top {
+    background-color: #26c7c0;
+    position: relative;
+    left: 100px;
+    box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -webkit-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -moz-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+}
+
+.left {
+    background-color: #09a909;
+    float: left;
+    box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -webkit-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -moz-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+}
+
+.middle {
+    float: left;
+    box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -webkit-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -moz-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+}
+
+.right {
+    background-color: #3b3bce;
+    float: left;
+    box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -webkit-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -moz-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+}
+
+.bottom {
+    background-color: #d48f11;
+    clear: both;
+    position: relative;
+    left: 100px;
+    box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -webkit-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+    -moz-box-shadow: 2px 2px 6px 3px #666, -2px -2px 6px 3px #666;
+}
+
+
+/*十字架移到正中间*/
+
+.container {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+
+/*中间图片移到正中间*/
+
+img {
+    position: relative;
+    left: 18px;
+    top: 18px;
+}
